@@ -33,7 +33,7 @@ class App extends Component {
             <p>Powered by <a href="https://elements.heroku.com/addons/einstein-vision">
               {'Einstein Vision'}
             </a></p>
-            <<p className="detail-text">Example application of custom image recognition. Upload an image to identify your car accident.</p>
+            <p className="detail-text">Example application of custom image recognition. Upload an image to identify your car accident.</p>
           </div>
           <div className="title-logo"><HerokuLogo/></div>
         </div>
