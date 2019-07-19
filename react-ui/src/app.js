@@ -42,11 +42,6 @@ class App extends Component {
 
         {!uploadError
           ? <div className="about">
-              <ul>
-                <li><a href="https://blog.heroku.com/einstein-vision-image-recognition">Introduction</a></li>
-                <li><a href="https://github.com/heroku/einstein-vision-node/tree/heroku-recognizer">GitHub</a></li>
-                <li><a href="https://metamind.readme.io/v1/docs">API Docs</a></li>
-              </ul>
             </div>
           : <p className="status-message status-message-error">
               {uploadError}
