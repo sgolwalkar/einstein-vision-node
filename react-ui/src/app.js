@@ -29,11 +29,11 @@ class App extends Component {
       <div className="app">
         <div className="title-container">
           <div className="title-text">
-            <h1>Heroku Brand Recognizer</h1>
+            <h1>Car Accident Recognizer</h1>
             <p>Powered by <a href="https://elements.heroku.com/addons/einstein-vision">
               {'Einstein Vision'}
             </a></p>
-            <p className="detail-text">Example application of custom image recognition. Upload an image to identify if it contains the Heroku logo or supporting artwork.</p>
+            // <p className="detail-text">Example application of custom image recognition. Upload an image to identify if it contains the Heroku logo or supporting artwork.</p>
           </div>
           <div className="title-logo"><HerokuLogo/></div>
         </div>
@@ -66,7 +66,7 @@ class App extends Component {
             rejectClassName="dropzone-reject">
             <UploadTarget/>
           </Dropzone>}
-          
+
           <Dropzone
               accept={'image/png, image/jpeg'}
               multiple={false}
@@ -82,12 +82,12 @@ class App extends Component {
               <div className={classNames(
                 'image-preview',
                 file != null && !uploadError ? 'image-preview-visible' : null)}>
-                
+
                 {isProcessing || response ? <img
                   alt="Upload preview"
                   src={file && file.preview}
                   style={{ display: 'block' }}/> : null}
-                {!response || isProcessing ? null : 
+                {!response || isProcessing ? null :
                   <div className="prompt">Drop or tap to upload another</div>
                 }
                 <div className="spinner-wrapper">
@@ -96,7 +96,7 @@ class App extends Component {
                     : null}
                 </div>
               </div>
-            
+
             <Predictions contents={predictions}/>
           </div>
           </Dropzone>
