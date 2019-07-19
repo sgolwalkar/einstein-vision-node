@@ -5,6 +5,7 @@ import superagent from 'superagent';
 
 import './app.css';
 import HerokuLogo from './heroku-logo';
+import SalesforceLogo from './salesforce-logo';
 import Spinner from './spinner';
 import Predictions from './predictions';
 import UploadTarget from './upload-target';
@@ -35,7 +36,7 @@ class App extends Component {
             </a></p>
             <p className="detail-text">Example application of custom image recognition. Upload an image to identify your car accident.</p>
           </div>
-          <div className="title-logo"><HerokuLogo/></div>
+          <div className="title-logo"><SalesforceLogo/></div>
         </div>
 
 
