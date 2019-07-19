@@ -36,7 +36,7 @@ class App extends Component {
             </a></p>
             <p className="detail-text">Example application of custom image recognition. Upload an image to identify your car accident.</p>
           </div>
-          <div className="title-logo"><SalesforceLogo/></div>
+          <div className="title-logo"><HerokuLogo/></div>
         </div>
 
 
