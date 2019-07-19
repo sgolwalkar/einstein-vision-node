@@ -5,7 +5,6 @@ import superagent from 'superagent';
 
 import './app.css';
 import HerokuLogo from './heroku-logo';
-import SalesforceLogo from './salesforce-logo';
 import Spinner from './spinner';
 import Predictions from './predictions';
 import UploadTarget from './upload-target';
